@@ -1,0 +1,22 @@
+{
+  "name": "@schktjm/slackmoji",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "emoji-datasource": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "slackmoji": "bin/cli.js"
+  },
+  "author": "schktjm",
+  "license": "MIT"
+}
